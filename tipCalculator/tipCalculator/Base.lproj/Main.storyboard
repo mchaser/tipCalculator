@@ -79,34 +79,39 @@
                                 <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ayD-1p-Gh4">
-                                <rect key="frame" x="478" y="64" width="102" height="63"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$0.00" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="041-A1-eAK">
+                                <rect key="frame" x="478" y="74" width="102" height="43"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="102" id="SVA-U2-JUk"/>
-                                    <constraint firstAttribute="height" constant="63" id="ePE-L9-gKn"/>
+                                    <constraint firstAttribute="width" constant="102" id="zHF-Jm-3d3"/>
                                 </constraints>
+                                <color key="textColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
+                            </textField>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="4kF-Mv-IhR">
+                                <rect key="frame" x="111" y="285" width="378" height="31"/>
+                            </slider>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="M63-8I-rIY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0nj-pe-xcl"/>
-                            <constraint firstItem="YT1-31-IcK" firstAttribute="leading" secondItem="ayD-1p-Gh4" secondAttribute="leading" id="4MQ-Gm-DVb"/>
+                            <constraint firstItem="041-A1-eAK" firstAttribute="leading" secondItem="YT1-31-IcK" secondAttribute="leading" id="5qT-GH-sgz"/>
                             <constraint firstItem="6cK-zo-sd5" firstAttribute="leading" secondItem="984-5X-h1a" secondAttribute="leading" id="763-D0-8FP"/>
                             <constraint firstItem="M63-8I-rIY" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="CKt-hc-gw4"/>
                             <constraint firstItem="6cK-zo-sd5" firstAttribute="top" secondItem="Vax-Fv-Zi4" secondAttribute="bottom" constant="8" symbolic="YES" id="GCi-ua-DZy"/>
                             <constraint firstItem="M63-8I-rIY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="GZY-7L-cUy"/>
+                            <constraint firstItem="041-A1-eAK" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="RIi-Dv-xmK"/>
                             <constraint firstItem="YT1-31-IcK" firstAttribute="baseline" secondItem="6cK-zo-sd5" secondAttribute="baseline" id="YGL-x1-vb8"/>
+                            <constraint firstItem="4kF-Mv-IhR" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" constant="-226" id="cKu-jw-xjf"/>
                             <constraint firstItem="b4t-kj-RgG" firstAttribute="top" secondItem="YT1-31-IcK" secondAttribute="bottom" constant="8" symbolic="YES" id="diW-2o-NyQ"/>
                             <constraint firstItem="984-5X-h1a" firstAttribute="top" secondItem="6cK-zo-sd5" secondAttribute="bottom" constant="8" symbolic="YES" id="fHR-4Y-7Ex"/>
+                            <constraint firstItem="4kF-Mv-IhR" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="fVA-cj-c2t"/>
+                            <constraint firstItem="4kF-Mv-IhR" firstAttribute="centerX" secondItem="M63-8I-rIY" secondAttribute="centerX" id="gns-JA-fA0"/>
                             <constraint firstItem="YT1-31-IcK" firstAttribute="leading" secondItem="b4t-kj-RgG" secondAttribute="leading" id="jQu-jc-Y94"/>
                             <constraint firstItem="Vax-Fv-Zi4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="mdn-v6-7n3"/>
-                            <constraint firstItem="YT1-31-IcK" firstAttribute="top" secondItem="ayD-1p-Gh4" secondAttribute="bottom" constant="8" symbolic="YES" id="t3I-Q9-Tze"/>
                             <constraint firstItem="Vax-Fv-Zi4" firstAttribute="top" secondItem="M63-8I-rIY" secondAttribute="bottom" id="xUq-om-MqH"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="ayD-1p-Gh4" secondAttribute="trailing" id="xfo-zb-xZO"/>
                             <constraint firstItem="6cK-zo-sd5" firstAttribute="leading" secondItem="Vax-Fv-Zi4" secondAttribute="leading" id="zjj-Oq-1xV"/>
+                            <constraint firstItem="041-A1-eAK" firstAttribute="centerY" secondItem="Vax-Fv-Zi4" secondAttribute="centerY" id="zoG-FR-Gfh"/>
                         </constraints>
                     </view>
                 </viewController>
