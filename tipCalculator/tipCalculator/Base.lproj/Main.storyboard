@@ -114,6 +114,10 @@
                             <constraint firstItem="041-A1-eAK" firstAttribute="centerY" secondItem="Vax-Fv-Zi4" secondAttribute="centerY" id="zoG-FR-Gfh"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="amountOfBill" destination="041-A1-eAK" id="XAP-ET-73A"/>
+                        <outlet property="totalAmount" destination="b4t-kj-RgG" id="EB2-t4-Geg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
