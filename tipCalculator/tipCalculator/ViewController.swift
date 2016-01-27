@@ -9,6 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,10 +20,7 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-    @IBOutlet weak var amountOfBill: UITextField!
     
-
     var billAmount: Double = 0
     var numberOfPeopleToSplit: Int = 1
     var percentageOfTip: Double = 0.15
@@ -30,15 +28,23 @@ class ViewController: UIViewController {
     var grandTotal: Double = 0
     var amountPerPerson: Double = 0
     
+    var displayPercentage: Int = 0
+    func displayPercentageCal() -> Int {
+        displayPercentage = Int(percentageOfTip * Double(100))
+        return displayPercentage
+    }
+    
+    func tipCalculate(){
+        amountOfTip = billAmount * percentageOfTip
+        grandTotal = billAmount + amountOfTip
+        amountPerPerson = grandTotal / Double(numberOfPeopleToSplit)
+    }
     
     
+
+    @IBOutlet weak var amountOfBill: UITextField!
     
-//        
-//        billAmount {
-//        get {
-//            return NSNumberFormatter().numberFromString(amountOfBill.text!)!.doubleValue
-//        }
-//    }
+
 
     @IBOutlet weak var totalAmount: UILabel!
     
