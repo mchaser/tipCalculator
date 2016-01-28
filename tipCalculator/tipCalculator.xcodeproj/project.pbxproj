@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A4AECDB1C5A6680008D2A0D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4AECDA1C5A6680008D2A0D /* SystemConfiguration.framework */; };
+		5A4AECDD1C5A6692008D2A0D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4AECDC1C5A6692008D2A0D /* MobileCoreServices.framework */; };
+		5A4AECDF1C5A66A1008D2A0D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4AECDE1C5A66A1008D2A0D /* CoreTelephony.framework */; };
+		5A4AECE11C5A66AD008D2A0D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4AECE01C5A66AD008D2A0D /* CoreLocation.framework */; };
 		5A4E9B1A1C4D138200F39669 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4E9B191C4D138200F39669 /* AppDelegate.swift */; };
 		5A4E9B1C1C4D138200F39669 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4E9B1B1C4D138200F39669 /* ViewController.swift */; };
 		5A4E9B1F1C4D138200F39669 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A4E9B1D1C4D138200F39669 /* Main.storyboard */; };
@@ -14,6 +18,7 @@
 		5A4E9B241C4D138200F39669 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A4E9B221C4D138200F39669 /* LaunchScreen.storyboard */; };
 		5A4E9B2F1C4D138200F39669 /* tipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4E9B2E1C4D138200F39669 /* tipCalculatorTests.swift */; };
 		5A4E9B3A1C4D138200F39669 /* tipCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4E9B391C4D138200F39669 /* tipCalculatorUITests.swift */; };
+		CEFE3D57E81BF3364F7D9CE8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2885B97EC82313A9092970FD /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1337B86E42D17C9F78008EBE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		2885B97EC82313A9092970FD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4AECD91C5A2F45008D2A0D /* tipCalculator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tipCalculator-Bridging-Header.h"; sourceTree = "<group>"; };
+		5A4AECDA1C5A6680008D2A0D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5A4AECDC1C5A6692008D2A0D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		5A4AECDE1C5A66A1008D2A0D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		5A4AECE01C5A66AD008D2A0D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		5A4E9B161C4D138200F39669 /* tipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A4E9B191C4D138200F39669 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A4E9B1B1C4D138200F39669 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,7 @@
 		5A4E9B351C4D138200F39669 /* tipCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A4E9B391C4D138200F39669 /* tipCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipCalculatorUITests.swift; sourceTree = "<group>"; };
 		5A4E9B3B1C4D138200F39669 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA12036D83647AC8BAF43C95 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +67,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A4AECE11C5A66AD008D2A0D /* CoreLocation.framework in Frameworks */,
+				5A4AECDF1C5A66A1008D2A0D /* CoreTelephony.framework in Frameworks */,
+				5A4AECDD1C5A6692008D2A0D /* MobileCoreServices.framework in Frameworks */,
+				5A4AECDB1C5A6680008D2A0D /* SystemConfiguration.framework in Frameworks */,
+				CEFE3D57E81BF3364F7D9CE8 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +99,8 @@
 				5A4E9B2D1C4D138200F39669 /* tipCalculatorTests */,
 				5A4E9B381C4D138200F39669 /* tipCalculatorUITests */,
 				5A4E9B171C4D138200F39669 /* Products */,
+				605827D0C23616BE2D4A68FA /* Pods */,
+				A0DDF48C625165B78411AC3B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +122,7 @@
 				5A4E9B1D1C4D138200F39669 /* Main.storyboard */,
 				5A4E9B201C4D138200F39669 /* Assets.xcassets */,
 				5A4E9B221C4D138200F39669 /* LaunchScreen.storyboard */,
+				5A4AECD91C5A2F45008D2A0D /* tipCalculator-Bridging-Header.h */,
 				5A4E9B251C4D138200F39669 /* Info.plist */,
 			);
 			path = tipCalculator;
@@ -125,6 +146,27 @@
 			path = tipCalculatorUITests;
 			sourceTree = "<group>";
 		};
+		605827D0C23616BE2D4A68FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1337B86E42D17C9F78008EBE /* Pods.debug.xcconfig */,
+				AA12036D83647AC8BAF43C95 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A0DDF48C625165B78411AC3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A4AECE01C5A66AD008D2A0D /* CoreLocation.framework */,
+				5A4AECDE1C5A66A1008D2A0D /* CoreTelephony.framework */,
+				5A4AECDC1C5A6692008D2A0D /* MobileCoreServices.framework */,
+				5A4AECDA1C5A6680008D2A0D /* SystemConfiguration.framework */,
+				2885B97EC82313A9092970FD /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A4E9B3E1C4D138200F39669 /* Build configuration list for PBXNativeTarget "tipCalculator" */;
 			buildPhases = (
+				85BF555ED2E3C15CC884C670 /* Check Pods Manifest.lock */,
 				5A4E9B121C4D138200F39669 /* Sources */,
 				5A4E9B131C4D138200F39669 /* Frameworks */,
 				5A4E9B141C4D138200F39669 /* Resources */,
+				73373D73711BFEE2E0B7EEB2 /* Embed Pods Frameworks */,
+				37AB2A932CBDD60F5D8923D2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +295,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37AB2A932CBDD60F5D8923D2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73373D73711BFEE2E0B7EEB2 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85BF555ED2E3C15CC884C670 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5A4E9B121C4D138200F39669 /* Sources */ = {
@@ -395,6 +488,7 @@
 		};
 		5A4E9B3F1C4D138200F39669 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1337B86E42D17C9F78008EBE /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tipCalculator/Info.plist;
@@ -406,6 +500,7 @@
 		};
 		5A4E9B401C4D138200F39669 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA12036D83647AC8BAF43C95 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tipCalculator/Info.plist;
@@ -482,6 +577,7 @@
 				5A4E9B401C4D138200F39669 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A4E9B411C4D138200F39669 /* Build configuration list for PBXNativeTarget "tipCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +586,7 @@
 				5A4E9B431C4D138200F39669 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A4E9B441C4D138200F39669 /* Build configuration list for PBXNativeTarget "tipCalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +595,7 @@
 				5A4E9B461C4D138200F39669 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
