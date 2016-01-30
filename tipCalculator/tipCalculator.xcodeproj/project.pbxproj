@@ -18,7 +18,7 @@
 		5A4E9B241C4D138200F39669 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A4E9B221C4D138200F39669 /* LaunchScreen.storyboard */; };
 		5A4E9B2F1C4D138200F39669 /* tipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4E9B2E1C4D138200F39669 /* tipCalculatorTests.swift */; };
 		5A4E9B3A1C4D138200F39669 /* tipCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4E9B391C4D138200F39669 /* tipCalculatorUITests.swift */; };
-		CEFE3D57E81BF3364F7D9CE8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2885B97EC82313A9092970FD /* libPods.a */; };
+		F9ECFDD1D8A255579412E746 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268F337786D79D723F8711EA /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +40,7 @@
 
 /* Begin PBXFileReference section */
 		1337B86E42D17C9F78008EBE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		2885B97EC82313A9092970FD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		268F337786D79D723F8711EA /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A4AECD91C5A2F45008D2A0D /* tipCalculator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tipCalculator-Bridging-Header.h"; sourceTree = "<group>"; };
 		5A4AECDA1C5A6680008D2A0D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		5A4AECDC1C5A6692008D2A0D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
@@ -71,7 +71,7 @@
 				5A4AECDF1C5A66A1008D2A0D /* CoreTelephony.framework in Frameworks */,
 				5A4AECDD1C5A6692008D2A0D /* MobileCoreServices.framework in Frameworks */,
 				5A4AECDB1C5A6680008D2A0D /* SystemConfiguration.framework in Frameworks */,
-				CEFE3D57E81BF3364F7D9CE8 /* libPods.a in Frameworks */,
+				F9ECFDD1D8A255579412E746 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,7 +162,7 @@
 				5A4AECDE1C5A66A1008D2A0D /* CoreTelephony.framework */,
 				5A4AECDC1C5A6692008D2A0D /* MobileCoreServices.framework */,
 				5A4AECDA1C5A6680008D2A0D /* SystemConfiguration.framework */,
-				2885B97EC82313A9092970FD /* libPods.a */,
+				268F337786D79D723F8711EA /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

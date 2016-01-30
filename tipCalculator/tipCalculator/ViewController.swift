@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
     
 
@@ -39,6 +40,10 @@ class ViewController: UIViewController {
         grandTotal = billAmount + amountOfTip
         amountPerPerson = grandTotal / Double(numberOfPeopleToSplit)
     }
+    
+    @IBOutlet weak var billAmountInputBox: UITextField!
+    
+    
     
     
 
