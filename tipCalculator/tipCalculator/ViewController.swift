@@ -41,6 +41,12 @@ class ViewController: UIViewController {
         amountPerPerson = grandTotal / Double(numberOfPeopleToSplit)
     }
     
+    func displayAmountPerPerson() -> Double{
+        amountPerPerson = grandTotal / Double(numberOfPeopleToSplit)
+        return amountPerPerson
+    }
+    
+    
     @IBOutlet weak var billAmountInputBox: UITextField!
     
     
