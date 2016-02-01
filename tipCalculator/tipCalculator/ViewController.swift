@@ -47,11 +47,6 @@ class ViewController: UIViewController {
     }
     
     
-    @IBOutlet weak var billAmountInputBox: UITextField!
-    
-    
-    
-    
 
     @IBOutlet weak var amountOfBill: UITextField!
     
