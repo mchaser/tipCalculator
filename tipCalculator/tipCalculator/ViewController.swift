@@ -49,10 +49,12 @@ class ViewController: UIViewController {
     
 
     @IBOutlet weak var amountOfBill: UITextField!
-    
 
 
-    @IBOutlet weak var totalAmount: UILabel!
+    @IBOutlet weak var totalAmount: UILabel!{
+        totalAmount.text! = "\(grandTotal)"
+    }
+
     
     
 
