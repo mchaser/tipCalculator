@@ -52,7 +52,7 @@ class ViewController: UIViewController {
 
 
     @IBOutlet weak var totalAmount: UILabel!{
-        totalAmount.text! = "\(grandTotal)"
+        self.totalAmount.text! = "\(grandTotal)"
     }
 
     
