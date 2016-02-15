@@ -11,6 +11,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
+//    var tipCalculationBrain = tipCalBrain()
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,8 +28,5 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var amountOfBill: UITextField!
 
-
-    
-    
     
 }
