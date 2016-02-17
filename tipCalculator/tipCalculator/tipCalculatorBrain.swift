@@ -22,13 +22,13 @@ class tipCalBrain {
         return displayPercentage
     }
     
-    private func tipCalculate(){
+    func tipCalculate(){
         amountOfTip = billAmount * percentageOfTip
         grandTotal = billAmount + amountOfTip
         amountPerPerson = grandTotal / Double(numberOfPeopleToSplit)
     }
     
-    private func displayAmountPerPerson() -> Double{
+    func displayAmountPerPerson() -> Double{
         amountPerPerson = grandTotal / Double(numberOfPeopleToSplit)
         return amountPerPerson
     }
