@@ -12,7 +12,7 @@ class tipCalBrain {
     var billAmount: Double = 0
     var numberOfPeopleToSplit: Int = 1
     var percentageOfTip: Double = 0.15
-    var amountOfTip:Double = 0
+    var amountOfTip: Double = 0
     var grandTotal: Double = 0
     var amountPerPerson: Double = 0
     
