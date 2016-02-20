@@ -29,5 +29,4 @@ class ViewController: UIViewController {
     @IBOutlet weak var amountOfBill: UITextField!
 
     
-    
 }
